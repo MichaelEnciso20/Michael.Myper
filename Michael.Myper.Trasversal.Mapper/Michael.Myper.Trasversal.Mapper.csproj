@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Michael.Myper.Application.DTO\Michael.Myper.Application.DTO.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Domain.Entity\Michael.Myper.Domain.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

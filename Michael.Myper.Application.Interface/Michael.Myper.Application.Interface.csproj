@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Michael.Myper.Application.DTO\Michael.Myper.Application.DTO.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Transversal.Common\Michael.Myper.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>

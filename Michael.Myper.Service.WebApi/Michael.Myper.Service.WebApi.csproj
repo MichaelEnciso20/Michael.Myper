@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Michael.Myper.Application.DTO\Michael.Myper.Application.DTO.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Application.Interface\Michael.Myper.Application.Interface.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Application.Main\Michael.Myper.Application.Main.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Domain.Core\Michael.Myper.Domain.Core.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Domain.Entity\Michael.Myper.Domain.Entity.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Domain.Interface\Michael.Myper.Domain.Interface.csproj" />
+    <ProjectReference Include="..\Michael.Myper.infrastructure.Date\Michael.Myper.infrastructure.Date.csproj" />
+    <ProjectReference Include="..\Michael.Myper.infrastructure.Interface\Michael.Myper.infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\Michael.Myper.infrastructure.Repository\Michael.Myper.infrastructure.Repository.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Transversal.Common\Michael.Myper.Transversal.Common.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Trasversal.Mapper\Michael.Myper.Trasversal.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

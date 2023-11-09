@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Michael.Myper.infrastructure.Date\Michael.Myper.infrastructure.Date.csproj" />
+    <ProjectReference Include="..\Michael.Myper.infrastructure.Interface\Michael.Myper.infrastructure.Interface.csproj" />
+    <ProjectReference Include="..\Michael.Myper.Transversal.Common\Michael.Myper.Transversal.Common.csproj" />
+  </ItemGroup>
+
+</Project>
